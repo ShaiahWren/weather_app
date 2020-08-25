@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/index.css">
+    </head>
+    <body>
+        <header>
+            <h1 id="title">Weather App</h1> 
+        </header>
+        
+        <main>
+            <p>Location: <span id="location"></span></p>
+            <p>Temperature: <span id="temp"></span></p>
+            <p>Humidity: <span id="humidity"></span></p>
+            <p>Temp min: <span id="min"></span></p>
+            <p>Temp max: <span id="max"></span> </p>
+            <p>Pressure: <span id="pressure"></span> </p>
+            <p>Wind: <span id="wind"></span></p>
+        </main>
+       
+
+       
+
+        <form>
+            <label>
+                <input type="text" value="" id="city" name="categoryInput" required placeholder="City name:">
+            </label>
+            <button type="submit" id="submitForm">Submit</button>
+        </form>
+     
+        <footer>&#169; Shaiah Wren Designs</footer>
+        
+    </body>
+    <script src="scripts/conversions.js"></script>
+    <script src="scripts/get.js"></script>
+    <script src="scripts/index.js"></script>
+</html>
